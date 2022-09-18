@@ -4,16 +4,16 @@
 # returns: a string in the form of "F. Last"
 # '''
 
-# def initialize(): 
-#   name = input("What is your full name? ")
-#   split_name = name.split()
-#   first = split_name[0]
-#   first = first.upper()[:1]
-#   last = split_name[1]
-#   last = last.upper()[:1]
-#   return first + "." + last
+def initialize(): 
+  name = input("What is your full name? ")
+  split_name = name.split()
+  first = split_name[0]
+  first = first.upper()[:1]
+  last = split_name[1]
+  last = last.upper()[:1]
+  return first + "." + last
 
-# print(initialize())
+print(initialize())
 
 
 
