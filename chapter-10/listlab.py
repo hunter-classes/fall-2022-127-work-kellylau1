@@ -100,27 +100,33 @@
 
 #11: Sum all the elements in a list up to but not including the first even number.
 
-def elements(list):
-  first_result = []
-  list.sort()
-  for num in list: 
-    if num % 2 == 0:
-      first_result.append(num)
-  return first_result[1:]
-  for num in first_result:
-    sum = 0
-    sum = sum + num 
+#def elements(list):
+  #first_result = []
+  #list.sort()
+  #for num in list: 
+    #if num % 2 == 0:
+      #first_result.append(num)
+  #return first_result[1:]
+  #for num in first_result:
+    #sum = 0
+    #sum = sum + num 
 
-list = [1,2,3,4]
-print(elements(list))
+#list = [1,2,3,4]
+#print(elements(list))
 
 
 
 #12: Count how many words occur in a list up to and including the first occurrence of the word “sam”.
 
 def first(list): 
-  if word in list == "sam": 
-    sam = "sam"
+  result = []
+  index = list.index("sam")
+  for word in list: 
+    if list.index(word) <= index: 
+      result.append(word)
+  
+  return len(result)
+    
 
 list = ["apple" , "banana" , "sam" , "hello"]
 print(first(list))
