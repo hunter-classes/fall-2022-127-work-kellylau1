@@ -104,28 +104,26 @@ import random
 #     return modeSoFar
 
 
+
 def fastMode(dataset):
-    randomlList(2,3,9,3,4)
-    tallies[0,0,1,2,1,0,0,0,0,1]
+  slots = []
+  for i in range(100): 
+    slots.append(0) 
 
-
-    # assume all values in dataset
-    # are between 0 and 99 inclusive
-
-    # 1. make a list of 100 slots
-    # and set them all to 0
     # this will store our tallies
-
+  tallies = []
+  for i in slots():
+    tallies[i] += 1
+    
     # 2. Loop through our dataset
     # and for each item incremement
     # (add 1) to the appropriate
     # slot in the tallies list
-
+  find_mode = mode(tallies)
+  print(find_mode)
     # 3. the index with the highest
     # value in tallies is the mode
-
-
-
+fastMode(dataset)
 
   
     # pass
