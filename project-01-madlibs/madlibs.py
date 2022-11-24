@@ -1,4 +1,4 @@
-# Extras:
+22# Extras:
 # - Add some replacements that are unique, that is, the first time you see them you select on randomly but then you keep reusing that replacement.
 # - Instead of specifying the sentences or story to convert, write a story in a file and read it from your program. Make sure to include the file in your repo and that your program reads it correctly. 
 
