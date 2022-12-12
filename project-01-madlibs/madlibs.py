@@ -24,6 +24,7 @@ words = string.split()
 words1 = string1.split()
 words2 = string2.split()
 
+
 def substitute(words):
   
   for i in range(len(words)):
@@ -35,6 +36,8 @@ def substitute(words):
         
   print(" ".join(words))
 substitute(words)
+
+
 
 def substitute1(words1):
 
